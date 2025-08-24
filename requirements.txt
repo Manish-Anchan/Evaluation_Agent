@@ -1,3 +1,4 @@
+numpy
 langchain
 langgraph
 langchain_community
@@ -7,4 +8,4 @@ fastapi
 uvicorn
 watchdog
 langgraph-cli[inmem]
-langchain_ollama
+huggingface-hub
