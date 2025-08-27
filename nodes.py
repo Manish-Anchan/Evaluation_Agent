@@ -2,7 +2,6 @@ from state import State
 from langchain_groq import ChatGroq
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.messages import SystemMessage, AIMessage
-import google.generativeai as genai
 from langgraph.types import interrupt, Command
 from huggingface_hub import InferenceClient
 from maths import get_embedding, cosine_similarity
