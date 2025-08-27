@@ -15,6 +15,7 @@ dependencies = [
     "langchain-ollama>=0.3.6",
     "langgraph>=0.6.5",
     "langgraph-cli[inmem]>=0.3.6",
+    "streamlit>=1.48.1",
     "uvicorn>=0.35.0",
     "watchdog>=6.0.0",
 ]
