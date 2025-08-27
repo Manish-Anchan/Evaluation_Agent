@@ -1,11 +1,20 @@
-numpy
+# Web app
+streamlit
+python-dotenv
+
+# LangChain + LangGraph ecosystem
 langchain
+langchain-core
+langchain-groq
 langgraph
-langchain_community
-langchain_core
-langchain_groq
-fastapi
-uvicorn
-watchdog
-langgraph-cli[inmem]
+
+# Models / APIs
+google-generativeai
 huggingface-hub
+groq
+
+# ML / math
+numpy
+
+# Validation
+pydantic
