@@ -15,7 +15,7 @@ os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 
 HF_API_KEY = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
-llm = ChatGroq(model = "llama3-70b-8192")
+llm = ChatGroq(model = "llama-3.3-70b-versatile")
 
 client = InferenceClient(api_key=HF_API_KEY)
 model = "sentence-transformers/all-MiniLM-L6-v2"
